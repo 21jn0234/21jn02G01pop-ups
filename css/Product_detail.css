@@ -1,0 +1,54 @@
+.product_detail{
+    display: flex;
+}
+.reprint{
+    display: flex;
+}
+.button{
+    margin-left: 30px;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    background: #cbe8fa;
+    cursor: pointer;
+}
+.button_reprint{
+    float: right;
+}
+.button_list{
+    float: right;
+}
+.connection_product_2{
+    display: flex;
+}
+.connection_product_image{
+    margin-left: 60px;
+}
+.reviw_comment{
+    display: flex;
+}
+.reviw_comments{
+    width: 285px;
+    height: 280px;
+    border: 2px solid #68779a;
+    background: #ffffff;
+}
+.review_go{
+    float: right;
+    margin-right: 120px;
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    background: #cbe8fa;
+    cursor: pointer;
+}
+.product {
+    position: relative;
+  }
+.absolute {
+    position: absolute;
+    right: 0px;
+  }
+

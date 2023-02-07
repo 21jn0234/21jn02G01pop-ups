@@ -1,0 +1,71 @@
+/*#syohin{
+    margin-left:30px;
+    margin-right:30px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}*/
+
+.relative{
+    position: relative; /* 子要素の起点を指定 */
+    width: 120px;       /* 幅指定 */
+    height: 120px;      /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+  
+  }
+  .relative_a{
+    position: relative; /* 子要素の起点を指定 */
+    width: 240px;       /* 幅指定 */
+    height: 240px;      /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+  
+  }
+
+.ribbon{
+    position: absolute;
+    width:100%;                             /* 幅指定 */
+    height: 100%;                           /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+  }
+
+  .max_18ch{
+    display: block;
+    width: 18ch;
+  /*  font-family: "Courier New", Consolas, monospace; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .max_25ch{
+    display: block;
+    width: 25ch;
+  /*  font-family: "Courier New", Consolas, monospace; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+ 
+  .ran4_syohin{
+    display:  inline-block;
+    vertical-align: top;
+    font-size: 1;
+  }
+  .ran_syohin{
+    display:  inline-block;
+    font-size: 1;
+  }
+  .ran{
+    text-align:center;
+    vertical-align: bottom;
+  }
+.ran4{
+  padding-left: 140px;
+}
+.ran_syohin_a{
+  display:  inline-block;
+}

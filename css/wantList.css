@@ -1,0 +1,63 @@
+.relative{
+    position: relative; /* 子要素の起点を指定 */
+    width: 120px;       /* 幅指定 */
+    height: 120px;      /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+
+}
+
+/* .moto{
+    position: absolute;
+    width:100%;                             /* 幅指定 
+    height: 100%;                           /* 高さ指定 
+    box-sizing:  border-box;                /* 崩れ防止 
+    top:0%;
+    list-style-position:inside;
+} */
+
+.ribbon{
+    position: absolute;
+    width:100%;                             /* 幅指定 */
+    height: 100%;                           /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+}
+
+#product_image{
+     text-align:center;
+     vertical-align:middle;
+ }
+
+#max_18ch{
+    display: block;
+    width: 18ch;
+  /*  font-family: "Courier New", Consolas, monospace; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+.now{
+    width:45%;
+    float:left;
+}
+
+.past{
+    width:45%;
+    clear:both;
+}
+
+.table{
+    float:left;
+}
+
+/* 
+.pageNow{
+    background-color:#F3E0BE;
+}
+.pagePast{
+    background-color:#C6C0BC;
+} */

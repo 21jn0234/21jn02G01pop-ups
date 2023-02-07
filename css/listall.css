@@ -1,0 +1,60 @@
+
+.title{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;  */
+}
+
+/* .sorttitle{
+    display: flex;
+    float: right;
+} */
+
+.sort{
+    float: right;
+    display: flex;
+    white-space: nowrap;
+}
+
+.title_sort{
+    white-space: nowrap;
+    position: relative;
+    right: 50px;
+}
+.syohin_a{
+    padding: auto;
+    display: inline-block; 
+    font-size: 15px;
+    
+}
+.relative{
+    position: relative; /* 子要素の起点を指定 */
+    width: 120px;       /* 幅指定 */
+    height: 120px;      /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+    margin: 0 auto;
+  }
+
+.ribbon{
+    position: absolute;
+    width:100%;                             /* 幅指定 */
+    height: 100%;                           /* 高さ指定 */
+    box-sizing:  border-box;                /* 崩れ防止 */
+    top:0%;
+    list-style-position:inside;
+  }
+
+.slider{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.syohin_a img {
+    border: solid 4px #abbfe0; /* 色：グレー */
+  }

@@ -1,0 +1,4 @@
+body {
+  background: linear-gradient(-45deg, rgba(255, 241, 161, 0.876), rgba(255, 0, 161, .8)) fixed, url("../images/Logo_blackStrow.PNG") fixed;
+  background-size:cover;
+}
