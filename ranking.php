@@ -41,19 +41,19 @@
              <?php if($cnt == 1){?>
              <tr>
                  <td>
-                 <img src="images/ranking_1.PNG ?>"width='50' height="50"/>
+                 <img src="images/ranking_1.PNG"width='50' height="50"/>
                 </td>
             </tr>
             <?php }else if($cnt == 2){?>
              <tr>
                  <td>
-                 <img src="images/ranking_2.PNG ?>"width='50' height="50"/>
+                 <img src="images/ranking_2.PNG"width='50' height="50"/>
                 </td>
             </tr>
             <?php }else if($cnt == 3){?>
              <tr>
                  <td>
-                 <img src="images/ranking_3.PNG ?>"width='50' height="50"/>
+                 <img src="images/ranking_3.PNG"width='50' height="50"/>
                 </td>
             </tr>
             <?php } else{?>
